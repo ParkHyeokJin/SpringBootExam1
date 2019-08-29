@@ -1,0 +1,13 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head th:replace="layouts/header"></head>
+<body>
+	<div th:replace="layouts/navbar :: navBar"></div>
+	<h1>Hello, world!</h1>
+	<!-- 공통 footer -->
+    <div th:insert="layouts/footer :: copy"></div>
+</body>
+</html>
